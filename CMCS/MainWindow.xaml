@@ -1,0 +1,14 @@
+﻿<Window x:Class="CMCS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Contract Monthly Claim System" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top" Background="LightGray" Width="200">
+            <Button Content="Home" Name="HomeButton" Click="HomeButton_Click" Height="40" Margin="5"/>
+            <Button Content="Claims" Name="ClaimsButton" Click="ClaimsButton_Click" Height="40" Margin="5"/>
+            <Button Content="Lecturers" Name="LecturersButton" Click="LecturersButton_Click" Height="40" Margin="5"/>
+            <Button Content="Staff" Name="StaffButton" Click="StaffButton_Click" Height="40" Margin="5"/>
+        </StackPanel>
+        <Frame Name="MainFrame" NavigationUIVisibility="Hidden" Margin="210,0,0,0"/>
+    </Grid>
+</Window>
